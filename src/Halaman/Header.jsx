@@ -29,9 +29,9 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex space-x-5 mb-24'>
-                   <button className=' border-2 p-2 px-4 rounded-full border-goldenrod text-2xl'>My Portofolio</button>
-                   <a href="https://www.linkedin.com/in/yehezkiel-fernandes/" className='flex items-center text-lg'><FaLinkedin className=' text-3xl' /></a>
-                    <a href="https://github.com/Hiroz-uchiha" className=' items-center flex text-lg'><FaGithub className=' text-3xl'/></a>
+                   <button className=' border-2 p-2 px-4 rounded-full border-goldenrod text-2xl hover:bg-goldenrod hover:border-transparent'>My Portofolio</button>
+                   <a href="https://www.linkedin.com/in/yehezkiel-fernandes/" className='flex items-center text-lg'><FaLinkedin className=' text-3xl hover:text-goldenrod' /></a>
+                    <a href="https://github.com/Hiroz-uchiha" className=' items-center flex text-lg'><FaGithub className=' text-3xl hover:text-goldenrod'/></a>
             </div>
 
         </div>

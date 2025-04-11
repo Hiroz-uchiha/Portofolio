@@ -718,3 +718,22 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
+
+.text-red-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 202 202 / var(--tw-text-opacity, 1));
+}
+
+.hover\:border-transparent:hover {
+  border-color: transparent;
+}
+
+.hover\:bg-goldenrod:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 165 32 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-goldenrod:hover {
+  --tw-text-opacity: 1;
+  color: rgb(218 165 32 / var(--tw-text-opacity, 1));
+}
