@@ -1,6 +1,8 @@
 import React from 'react'
 import gambar1 from "../Assets/gambarku1.png"
 import { TypeAnimation } from 'react-type-animation'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -28,8 +30,8 @@ const Header = () => {
             </div>
             <div className='flex space-x-5 mb-24'>
                    <button className=' border-2 p-2 px-4 rounded-full border-goldenrod text-2xl'>My Portofolio</button>
-                    <a href="" className=' items-center flex text-lg'>Linkedin</a>
-                   <a href="" className='flex items-center text-lg' >Github</a>
+                   <a href="https://www.linkedin.com/in/yehezkiel-fernandes/" className='flex items-center text-lg'><FaLinkedin className=' text-3xl' /></a>
+                    <a href="https://github.com/Hiroz-uchiha" className=' items-center flex text-lg'><FaGithub className=' text-3xl'/></a>
             </div>
 
         </div>
