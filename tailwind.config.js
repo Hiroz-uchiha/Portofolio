@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors : {
         darkbrown : 'rgb(37, 31, 15)',
-        goldenrod : '#DAA520'
+        goldenrod : '#DAA520',
+        lightgold : "#B59494"
       }
     },
   },

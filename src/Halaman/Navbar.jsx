@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Assets/style.css"
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const navbar = [
@@ -12,7 +13,12 @@ const Navbar = () => {
         </div>
         <div className=' w-3/4 flex justify-around'>
             {navbar.map((item, index) => (
-                <a key={index} href={`#${item.toLowerCase()}`} className=' underline-animated  cursor-pointer'>{item}</a>
+                <Link 
+                key={index} to={item.toLowerCase()} 
+                className=' underline-animated  cursor-pointer'
+                smooth={true}
+                duration={500}
+                >{item}</Link>
             ))}
         </div>
 
