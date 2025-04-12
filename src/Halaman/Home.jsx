@@ -3,10 +3,11 @@ import Navbar from './Navbar'
 import Header from './Header'
 import About from './About'
 import "../Assets/style.css"
+import Skills from './Skills'
+import Project from './Project'
+import DetailProject from './DetailProject'
 
-const Home = () => {
-  // "Home", "About", "Skills", "Projects", "Contact"
-    
+const Home = () => {    
   return (
     <div>
       <div className=' scroll-smooth'>
@@ -16,6 +17,12 @@ const Home = () => {
         </section>
         <section id='about'>
           <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id='projects'>
+          <Project />
         </section>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const navbar = [
-        "Home", "About", "Skills", "Projects", "Contact"
+         "About", "Skills", "Projects", "Contact"
     ]
   return (
     <div className=' bg-darkbrown p-6 text-white flex font-[Comfortaa]'>
