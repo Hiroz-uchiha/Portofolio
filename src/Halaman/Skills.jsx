@@ -75,7 +75,7 @@ const Skills = () => {
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                <h1 className=' text-center text-3xl'>Skills</h1>
+                <h1 className=' text-center text-3xl font-bold'>Skills</h1>
             </motion.div>
 
             <div className=' text-8xl flex space-x-3 mt-3'>

@@ -13,7 +13,7 @@ const About = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <h1 className='text-center text-3xl '>About</h1>
+          <h1 className='text-center text-3xl font-bold '>About</h1>
         </motion.div>
 
         <div className=' p-3 flex justify-around mt-3'>

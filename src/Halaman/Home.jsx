@@ -6,6 +6,8 @@ import "../Assets/style.css"
 import Skills from './Skills'
 import Project from './Project'
 import DetailProject from './DetailProject'
+import ContactMe from './ContactMe'
+import FooterPorto from './FooterPorto'
 
 const Home = () => {    
   return (
@@ -24,6 +26,10 @@ const Home = () => {
         <section id='projects'>
           <Project />
         </section>
+        <section id='contact'>
+          <ContactMe />
+        </section>
+          <FooterPorto />
       </div>
     </div>
   )
