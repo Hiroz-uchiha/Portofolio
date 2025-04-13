@@ -29,7 +29,7 @@ const About = () => {
             </motion.div>
           </div>
 
-          <div className=' w-[70%] font-[Roboto] text-xl text-justify '>
+          <div className=' w-[70%] font-[Robot0o] text-xl text-justify '>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
