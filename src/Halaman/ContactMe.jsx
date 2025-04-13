@@ -15,7 +15,9 @@ const ContactMe = () => {
             window.open(whatsappUrl,"_blank")
             console.log(whatsappUrl)
             setNama("")
+            
             setEmail("")
+
             setPesan("")
         }
 
