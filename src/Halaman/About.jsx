@@ -29,33 +29,35 @@ const About = () => {
             </motion.div>
           </div>
 
-          <div className=' w-[70%] font-[Robot0o] text-xl text-justify '>
+          <div className=' w-[70%] font-[Robot0o] text-xl text-justify'>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
               viewport={{ once: true }}
+              className=' space-y-3'
             >
-              <p className='text-indent-first-line'>Saya adalah Yehezkiel Fernandes Parapat seorang developer dengan minat besar di bidang Website Development, Mobile App, UI/UX Design, dan Game Programming. Saya memiliki kemampuan untuk mengerjakan bagian frontend maupun backend, tergantung kebutuhan proyek.</p>
-              <p className='text-indent-first-line'>Saat ini, saya juga berperan sebagai Asisten Laboratorium di Universitas Mikroskil, sebuah pengalaman yang memungkinkan saya untuk terus mengembangkan keterampilan teknik sekaligus membantu mahasiswa dalam memahami konsep-konsep pemrograman. Saya menyelesaikan studi sarjana dalam waktu 3,5 tahun, yang mengasah disiplin, manajemen waktu, dan komitmen saya terhadap dunia teknologi.
+              <p className='text-indent-first-line'>Hi! I am Yehezkiel Fernandes Parapat a passionate and adaptable developer with a strong interest in Website Development, Mobile App Development, UI/UX Design, and Game Programming. I have the capability to work on both frontend and backend development, depending on the specific needs of each project.
               </p>
-              <p className='text-indent-first-line'>Saya berfokus untuk membangun aplikasi yang tidak hanya berfungsi dengan baik, tetapi juga nyaman digunakan dan menarik secara visual. Untuk sisi frontend, saya menggunakan React untuk web dan Flutter untuk mobile, sedangkan untuk backend, saya terbiasa menggunakan Node.js, Express, serta integrasi berbagai API.
+              <p className='text-indent-first-line'>Currently, I serve as a Laboratory Assistant at Mikroskil University, where I help students understand programming concepts while continuing to enhance my own technical skills. This role has sharpened my communication and problem-solving abilities in real-world learning environments.
               </p>
-              <p className='text-indent-first-line'>Dalam hal UI/UX Design, saya menggunakan Figma untuk merancang antarmuka yang intuitif dan user-friendly. Di dunia Game Development, saya mengembangkan game menggunakan Unity sebagai platform utama.
+              <p className='text-indent-first-line'>I completed my undergraduate studies in just 3.5 years, demonstrating my discipline, time management, and dedication to technology. This academic journey laid a solid foundation for my growth as a developer, both in terms of logic and creativity.
               </p>
-              <p className='text-indent-first-line'>Bagi saya, menciptakan pengalaman pengguna yang menyenangkan sama pentingnya dengan memastikan performa aplikasi yang optimal. Dengan perpaduan antara skill teknis dan desain, saya berkomitmen untuk menciptakan solusi digital yang fungsional, estetis, dan berdampak.
+              <p className='text-indent-first-line'>In development, I use React for web and Flutter for mobile on the frontend, and Node.js with Express on the backend. I also work with various APIs to extend functionality. For UI/UX design, I rely on Figma to create user-friendly and visually appealing interfaces, while in game development, I use Unity to build interactive experiences.
+              </p>
+              <p className='text-indent-first-line'>For me, good software is not just about functionality but should also offer a seamless and engaging user experience. I strive to combine technical precision with thoughtful design to build digital solutions that are practical, beautiful and impactful.
               </p>
 
             <hr className=' border-t-2 border-gray-700 mt-3' />
             
             <div className='flex justify-between px-2 mt-2'>
               <ul className=' space-y-2'>
-                <li>Nama : Yehezkiel Fernandes Parapat</li>
-                <li>Umur : 22 Tahun</li>
+                <li>Name : Yehezkiel Fernandes Parapat</li>
+                <li>Age : 22 years old</li>
               </ul>
               <ul className=' space-y-2'>
                 <li>Email : yehezkielfernandes1@gmail.com</li>
-                <li>Asal : Kota Medan, Sumatera Utara</li>
+                <li>From : Medan City, North Sumatra</li>
               </ul>
             </div>
             </motion.div>

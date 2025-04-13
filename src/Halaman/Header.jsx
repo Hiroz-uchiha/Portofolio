@@ -3,6 +3,7 @@ import gambar1 from "../Assets/gambarku1.png"
 import { TypeAnimation } from 'react-type-animation'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -28,16 +29,33 @@ const Header = () => {
                     </h3>
                 </div>
             </div>
+            
+        <motion.div
+                        initial={{ opacity: 0, x: -50 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: true }}
+                    >
             <div className='flex space-x-5 mb-24'>
-                   <button className=' border-2 p-2 px-4 rounded-full border-goldenrod text-2xl hover:bg-goldenrod hover:border-transparent'>My Portofolio</button>
+                <a href="./cv_yehezkiel_fernandes.pdf"> 
+                    <button className=' border-2 p-2 px-5 rounded-full border-goldenrod text-xl hover:bg-goldenrod hover:border-transparent'>Get My Resume</button>
+                </a>
+                   
                    <a href="https://www.linkedin.com/in/yehezkiel-fernandes/" className='flex items-center text-lg'><FaLinkedin className=' text-3xl hover:text-goldenrod' /></a>
                     <a href="https://github.com/Hiroz-uchiha" className=' items-center flex text-lg'><FaGithub className=' text-3xl hover:text-goldenrod'/></a>
             </div>
-
+                    </motion.div>
         </div>
-        
+
         <div className=' w-[40%] flex items-end'>
-            <img src={gambar1} alt="Gambarku" className=' w-[70%]' />
+        <motion.div
+                        initial={{ opacity: 0, x: 150 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1.5 }}
+                        viewport={{ once: true }}
+                    >
+                <img src={gambar1} alt="Gambarku" className=' w-[70%]' />
+                    </motion.div>
         </div>
     </div>
   )

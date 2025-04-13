@@ -8,15 +8,7 @@ const data = [
     {
         judul: "SKRIPSI IMPLEMENTASI SISTEM AUGMENTED REALITY UNTUK ORGAN DALAM DENGAN INTEGRASI BERBASIS SUARA",
         img: gambarSkripsi,
-        isi: `Dalam penyusunan skripsi ini, kami bekerja secara tim untuk mengembangkan sebuah aplikasi edukasi interaktif berbasis Android bernama scleARn. Aplikasi ini dirancang khusus untuk membantu siswa SMA dalam memahami organ dalam manusia secara lebih mendalam dan menarik.
-
-scleARn memanfaatkan teknologi Augmented Reality (AR) untuk menampilkan visualisasi organ dalam tubuh manusia secara 3D dan real-time, memungkinkan pengguna melihat dan mempelajari anatomi tubuh secara langsung melalui kamera perangkat mereka.
-
-Selain itu, aplikasi ini dilengkapi dengan fitur interaktif berbasis suara, seperti perintah suara (Speech-to-Text) dan text-to-speech, yang memperkaya pengalaman belajar siswa. Kami juga mengintegrasikan AI Chat Assist menggunakan layanan Gemini untuk menjawab pertanyaan-pertanyaan siswa secara langsung dan kontekstual.
-
-Pengembangan aplikasi dilakukan secara kolaboratif menggunakan metode AGILE, dengan pendekatan iteratif untuk memastikan setiap tahapan pembangunan aplikasi berjalan efektif dan sesuai dengan kebutuhan pengguna.
-
-Hasil pengujian menunjukkan bahwa scleARn mampu menjalankan fungsinya dengan baik dan mendapatkan respons positif dari pengguna, dengan tingkat kepuasan mencapai 92,25%.`,
+        isi: `In the preparation of this thesis, we worked as a team to develop an interactive educational application for Android called scleARn. This application is specifically designed to help high school students gain a deeper and more engaging understanding of the human internal organs. scleARn utilizes Augmented Reality (AR) technology to display 3D, real-time visualizations of the human internal organs, allowing users to explore and study the human anatomy directly through their devices camera. Additionally, the application features interactive voice-based functions, such as Speech-to-Text and Text-to-Speech commands, which enhance the learning experience for students. We also integrated an AI Chat Assist using Gemini services to provide direct, contextual responses to student questions. The development of the application was done collaboratively using the AGILE methodology, with an iterative approach to ensure each phase of the applications development was effective and met the users' needs. Testing results showed that scleARn performs its functions well and received positive feedback from users, achieving a satisfaction rate of 92.25%.`,
         file: [
             {
                 nama: "Github Tim",
@@ -28,12 +20,9 @@ Hasil pengujian menunjukkan bahwa scleARn mampu menjalankan fungsinya dengan bai
     {
         judul: "Game LostDoll",
         img: gambarLostDoll,
-        isi: "Saya adalah seorang programmer lead dalam pengembangan game LostDoll, sebuah proyek yang kami kerjakan dalam program MSIB Infinite Learning. Dalam tim yang terdiri dari empat orang, saya bertanggung jawab penuh terhadap pengembangan game mechanic serta beberapa aspek teknis lainnya yang mendukung keseluruhan gameplay dari game ini. LostDoll merupakan game 2D dengan nuansa misteri dan horor yang mengisahkan perjalanan seorang anak kecil yang secara tidak sengaja masuk ke dunia hantu. Dalam dunia yang penuh teka-teki dan suasana mencekam tersebut, pemain akan memandu sang anak untuk mencari jalan keluar sambil mengungkap rahasia yang tersembunyi di dalamnya. Sebagai lead programmer, saya tidak hanya menyusun sistem mekanik seperti interaksi objek, navigasi karakter, dan sistem level, tetapi juga ikut memastikan seluruh elemen teknis game berjalan harmonis dengan visual dan cerita yang dibangun oleh tim. Kolaborasi ini menjadi pengalaman berharga dalam mengembangkan game dari tahap konsep hingga playable product.",
+        isi: "I am the lead programmer for the development of the game LostDoll, a project we worked on as part of the MSIB Infinite Learning program. In a team of four, I was fully responsible for developing the game mechanics and several other technical aspects that support the overall gameplay. LostDoll is a 2D game with a mystery and horror atmosphere, telling the story of a young child who accidentally enters a haunted world. In this world full of puzzles and a tense ambiance, players guide the child to find an escape while uncovering hidden secrets. As the lead programmer, I was not only in charge of building the mechanics such as object interaction, character navigation, and level systems, but also ensured that all technical elements worked harmoniously with the visuals and story crafted by the team. This collaboration was a valuable experience in developing a game from concept to a playable product",
         file: [
-            {
-                nama: "Github Tim",
-                link: "https://github.com/RickiGut/Lost-Doll"
-            },
+         
             {
                 nama: "Website",
                 link: "https://ats-studio.itch.io/lost-doll"
@@ -43,18 +32,7 @@ Hasil pengujian menunjukkan bahwa scleARn mampu menjalankan fungsinya dengan bai
     {
         judul: "Website TabungPintar",
         img: gambarTabungPintar,
-        isi: `TabungPintar adalah sebuah website sederhana yang dirancang untuk membantu pengguna dalam mengatur keuangan pribadi secara efisien dan mudah. Website ini memiliki tiga fitur utama, yaitu Pemasukan, Pengeluaran, dan Rekening, yang saling terintegrasi untuk memberikan pengalaman pencatatan keuangan yang rapi dan terorganisir.
-
-Fitur Rekening memungkinkan pengguna untuk membuat satu atau lebih rekening dengan memasukkan nama rekening serta jumlah saldo awal. Setiap transaksi keuangan yang dilakukan nantinya akan tercatat berdasarkan rekening yang dipilih oleh pengguna.
-
-Sementara itu, pada fitur Transaksi, pengguna dapat mencatat dua jenis transaksi:
-Pemasukan, yaitu uang yang masuk ke dalam rekening.
-
-Pengeluaran, yaitu uang yang keluar dari rekening.
-
-Untuk setiap transaksi, pengguna harus terlebih dahulu memilih rekening yang digunakan. Setelah itu, pengguna dapat memilih jenis transaksi, mengisi jumlah uang, dan mencatat tanggal transaksi tersebut. Semua data ini akan terekam dan ditampilkan secara ringkas untuk memudahkan pengguna memantau kondisi keuangan mereka dari waktu ke waktu.
-
-Dengan tampilan yang sederhana dan fungsi yang jelas, TabungPintar menjadi alat bantu yang efektif bagi siapa pun yang ingin mulai mengelola keuangan secara lebih baik.`,
+        isi: `TabungPintar is a simple website designed to help users manage their personal finances efficiently and easily. The website features three main functionalities: Income, Expenses, and Accounts, which are integrated to provide an organized and tidy financial tracking experience. The Accounts feature allows users to create one or more accounts by entering the account name and initial balance. Every financial transaction made will be recorded based on the selected account. Meanwhile, in the Transactions feature, users can record two types of transactions. Income, which refers to money coming into the account, Expenses, which refers to money going out of the account. For each transaction, users must first select the account they are using. After that, users can choose the type of transaction, enter the amount of money, and record the transaction date. All of this data will be recorded and displayed in a summary format to help users track their financial condition over time.With a simple interface and clear functionality, TabungPintar becomes an effective tool for anyone who wants to start managing their finances better.`,
         file: [
             {
                 nama: "Github Frontend",
@@ -71,17 +49,9 @@ Dengan tampilan yang sederhana dan fungsi yang jelas, TabungPintar menjadi alat 
         ]
     },
     {
-        judul: "Surprise Birthday",
+        judul: "Website SurpriseBirthday",
         img: gambarUlangTahun,
-        isi: `Surprise Birthday adalah sebuah website interaktif yang saya kembangkan pada awal tahun 2023, ditujukan untuk membantu orang-orang yang bingung ingin memberikan hadiah ulang tahun yang berkesan dan berbeda. Website ini dirancang untuk menghadirkan pengalaman ulang tahun virtual yang terasa seperti perayaan di dunia nyata.
-
-Ketika pengguna membuka website ini, mereka akan diminta untuk memasukkan nama penerima ulang tahun terlebih dahulu. Setelah itu, suasana akan dibuat seperti ruangan gelap—lampu mati—untuk membangun kejutan. Pengguna kemudian dapat menekan tombol "Hidupkan Lampu", yang secara perlahan menghidupkan suasana pesta.
-
-Selanjutnya, tombol "Mainkan Musik" akan memutar lagu ulang tahun yang ceria, disusul dengan animasi hiasan pesta seperti balon dan lampu warna-warni yang mulai bermunculan di layar, menciptakan suasana yang meriah dan menyenangkan.
-
-Bagian paling spesial datang ketika pengguna menekan tombol "Tiup Lilin"—kue ulang tahun dengan lilin menyala akan muncul, dan lilinnya akan padam secara animasi, memberikan kesan seperti meniup lilin sungguhan. Setelah itu, sebuah kartu ucapan akan tampil di layar, berisi pesan ulang tahun yang bisa disesuaikan atau diberikan secara default.
-
-Website ini menjadi solusi unik dan sederhana untuk memberi kejutan ulang tahun secara digital, terlebih ketika seseorang tidak bisa hadir secara langsung namun tetap ingin memberikan momen spesial yang berkesan.`,
+        isi: `Surprise Birthday is an interactive website I developed at the beginning of 2023, aimed at helping people who are unsure about giving a memorable and unique birthday gift. This website is designed to offer a virtual birthday experience that feels like a real-life celebration. When users open the website, they are first prompted to enter the name of the birthday recipient. The atmosphere is then set to simulate a dark room, with the lights off, to build up the surprise. Users can then press the "Turn On the Lights" button, which gradually brightens the party scene.Next, the "Play Music" button plays cheerful birthday music, followed by party decorations such as balloons and colorful lights appearing on the screen, creating a festive and joyful atmosphere. The most special moment comes when users press the "Blow Out the Candle" button. A birthday cake with a lit candle appears, and the candle is blown out in an animated fashion, giving the impression of blowing out a real candle. After that, a birthday card with a message, either customizable or default, will appear on the screen. This website serves as a unique and simple solution to give a digital birthday surprise, especially when someone cannot be present physically but still wants to provide a memorable and special moment.`,
         file: [
             {
                 nama: "Github Frontend",
