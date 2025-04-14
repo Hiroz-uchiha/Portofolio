@@ -5,7 +5,7 @@ import gambar2 from "../Assets/myImage.png"
 const About = () => {
   return (
     <Fragment>
-      <div className=' md:w-4/5 w-[90%] mt-5 mx-auto container '>
+      <div className=' md:w-4/5 w-[90%] mt-24 mx-auto container '>
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div className=' bg-darkbrown w-full text-white px-3 flex relative md:h-[calc(100vh-5rem)] font-[Comfortaa] container mx-auto '>
-        <div className=' md:w-[60%] w-full pt-10 ml-3 flex flex-col justify-between mt-10 space-y-10'>
+    <div className=' bg-darkbrown text-white px-3 flex relative md:h-[calc(100vh-5rem)] font-[Comfortaa] container mx-auto '>
+        <div className=' md:w-[60%] w-full pt-10 md:ml-3  flex flex-col justify-between mt-5 space-y-20 '>
             <div>
                 <h1 className=' md:text-4xl text-2xl'>Hello,</h1> 
                 <h1 className=' md:text-5xl mt-4 text-3xl'>I'm Yehezkiel Fernandes Parapat</h1> 

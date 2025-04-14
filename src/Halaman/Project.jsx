@@ -7,7 +7,7 @@ const Project = () => {
     const navigasi = useNavigate();
 
     return (
-        <div className=' mt-8 mb-5 p-3 w-[90%] mx-auto'>
+        <div className=' mt-10 mb-5 p-3 w-[90%] mx-auto'>
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -23,7 +23,7 @@ const Project = () => {
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                <div className=' mx-4 flex mt-3 flex-wrap justify-center'>
+                <div className=' mx-4 flex mt-5 flex-wrap justify-center'>
                     {data.map((items, index) => (
                         <div key={index} className='mx-5 mt-4' >
                             <div className=' w-96 h-96 rounded-md shadow-md bg-white'>

@@ -6,42 +6,39 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navbar = ["Introduction","About", "Skills", "Projects", "Contact"];
+  const navbar = ["Introduction", "About", "Skills", "Projects", "Contact"];
 
   return (
-    <div className='fixed z-[999] bg-darkbrown p-6 text-white flex font-[Comfortaa] container'>
-      <div className='md:w-1/4 w-[90%]'>
-        <h1 className='text-2xl'>Portofolio</h1>
-      </div>
+    <div className=' md:fixed md:z-50 container relative bg-darkbrown p-6 text-white flex flex-col font-[Comfortaa]'>
+      <div className='flex justify-between items-center'>
+        <h1 className='text-2xl md:w-1/4 w-[90%]'>Portofolio</h1>
 
-      {/* Hamburger Button */}
-      <div className='md:hidden w-[10%] text-xl flex items-center justify-center'>
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className='group'
-        >
-          <RxHamburgerMenu className='group-hover:text-red-400 transition-colors duration-300' />
-        </button>
-      </div>
-
-      {/* Desktop Menu */}
-      <div className='md:w-3/4 flex md:justify-around'>
-        {navbar.map((item, index) => (
-          <Link
-            key={index}
-            to={item.toLowerCase()}
-            className='underline-animated cursor-pointer hidden md:block'
-            smooth={true}
-            duration={500}
+        <div className='md:hidden w-[10%] text-xl flex items-center justify-center'>
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className='group'
           >
-            {item}
-          </Link>
-        ))}
+            <RxHamburgerMenu className='group-hover:text-red-400 transition-colors duration-300' />
+          </button>
+        </div>
+
+        <div className='md:w-3/4 hidden md:flex md:justify-around'>
+          {navbar.map((item, index) => (
+            <Link
+              key={index}
+              to={item.toLowerCase()}
+              className='underline-animated cursor-pointer'
+              smooth={true}
+              duration={500}
+            >
+              {item}
+            </Link>
+          ))}
+        </div>
       </div>
 
-      {/* Mobile Menu (Dropdown) */}
       {isOpen && (
-        <div className='absolute top-full left-0 w-full bg-darkbrown p-4 flex flex-col md:hidden z-[999] text-center space-y-5'>
+        <div className='absolute top-full left-0 w-full bg-darkbrown p-4 flex flex-col md:hidden text-center space-y-5 shadow-lg z-50 animate-fade-slide'>
           {navbar.map((item, index) => (
             <Link
               key={index}
@@ -49,7 +46,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               className='cursor-pointer hover:text-green-400 transition-colors duration-300'
-              onClick={() => setIsOpen(false)} // auto close if needed
+              onClick={() => setIsOpen(false)}
             >
               {item}
             </Link>
@@ -60,4 +57,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -68,7 +68,7 @@ const Skills = () => {
         },
     ]
     return (
-        <div className=' mt-5 md:w-4/5 mx-auto mb-2 container p-2 w-[90%]'>
+        <div className=' mt-9 md:w-4/5 mx-auto mb-2 container p-2 w-[90%]'>
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -78,7 +78,7 @@ const Skills = () => {
                 <h1 className=' text-center text-3xl font-bold'>Skills</h1>
             </motion.div>
 
-            <div className=' md:text-8xl flex md:flex-row space-x-3 mt-3'>
+            <div className=' md:text-8xl flex md:flex-row space-x-3 mt-7'>
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
