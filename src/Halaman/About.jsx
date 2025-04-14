@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react'
 import { motion } from "framer-motion";
-import gambar2 from "../Assets/gambar2.png"
-import IconArrow from "../Assets/IconArrow.png"
+import gambar2 from "../Assets/myImage.png"
 
 const About = () => {
   return (
     <Fragment>
-      <div className=' w-4/5 mt-5 mx-auto'>
+      <div className=' md:w-4/5 w-[90%] mt-5 mx-auto container'>
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -16,20 +15,20 @@ const About = () => {
           <h1 className='text-center text-3xl font-bold '>About</h1>
         </motion.div>
 
-        <div className=' p-3 flex justify-around mt-3'>
-          <div className=' w-[35%] pl-8 flex-shrink-0 mr-3'>
+        <div className=' p-3 flex justify-around mt-3 md:flex-row flex-col'>
+          <div className=' md:w-[35%] md:pl-8 flex-shrink-0 md:mr-3 w-full'>
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
               viewport={{ once: true }}
             >
-              <img src={gambar2} alt="Gambarku" className=' w-[90%] rounded-xl shadow-md' />
+              <img src={gambar2} alt="Gambarku" className=' md:w-[90%] rounded-xl shadow-md w-[70%] mx-auto' />
 
             </motion.div>
           </div>
 
-          <div className=' w-[70%] font-[Robot0o] text-xl text-justify'>
+          <div className=' md:w-[70%] md:text-xl text-justify mt-4'>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -50,12 +49,12 @@ const About = () => {
 
             <hr className=' border-t-2 border-gray-700 mt-3' />
             
-            <div className='flex justify-between px-2 mt-2'>
-              <ul className=' space-y-2'>
+            <div className='flex justify-between px-2 mt-2 md:flex-row flex-col space-y-1'>
+              <ul className=' space-y-1 md:space-y-2'>
                 <li>Name : Yehezkiel Fernandes Parapat</li>
                 <li>Age : 22 years old</li>
               </ul>
-              <ul className=' space-y-2'>
+              <ul className=' space-y-1 md:space-y-2'>
                 <li>Email : yehezkielfernandes1@gmail.com</li>
                 <li>From : Medan City, North Sumatra</li>
               </ul>

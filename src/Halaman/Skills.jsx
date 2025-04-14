@@ -68,7 +68,7 @@ const Skills = () => {
         },
     ]
     return (
-        <div className=' mt-5 w-4/5 mx-auto mb-2 '>
+        <div className=' mt-5 md:w-4/5 mx-auto mb-2 container p-2 '>
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -78,18 +78,18 @@ const Skills = () => {
                 <h1 className=' text-center text-3xl font-bold'>Skills</h1>
             </motion.div>
 
-            <div className=' text-8xl flex space-x-3 mt-3'>
+            <div className=' md:text-8xl flex md:flex-row space-x-3 mt-3'>
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                     viewport={{ once: true }}
-                    className=' bg-white p-2 flex flex-col w-1/2 space-y-4 shadow-md'
+                    className=' bg-white p-2 flex flex-col w-1/2 space-y-4 shadow-md rounded-md'
                 >
 
                     {data1.map((item, index) => (
                         <div key={index} className=' ml-4' >
-                            <ul className='flex space-x-4'>
+                            <ul className='flex space-x-4 md:flex-row'>
                                 <li>{item.logo}</li>
                                 <li className=' text-xl items-center flex'>{item.nama}</li>
                             </ul>
@@ -103,11 +103,11 @@ const Skills = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                     viewport={{ once: true }}
-                     className=' bg-white p-2 flex flex-col w-1/2 space-y-4 shadow-md'
+                     className=' bg-white p-2 flex flex-col w-1/2 space-y-4 shadow-md rounded-md'
                 >
                         {data2.map((item, index) => (
                             <div key={index} className=' ml-4' >
-                                <ul className='flex space-x-4'>
+                                <ul className='flex md:flex-row space-x-4'>
                                     <li>{item.logo}</li>
                                     <li className=' text-xl items-center flex'>{item.nama}</li>
                                 </ul>

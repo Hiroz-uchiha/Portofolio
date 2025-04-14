@@ -14,23 +14,26 @@ const Home = () => {
     <div>
       <div className=' scroll-smooth'>
         <Navbar />
-        <section id='home'>
-          <Header />
-        </section>
-        <section id='about'>
-          <About />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id='projects'>
-          <Project />
-        </section>
-        <section id='contact'>
-          <ContactMe />
-        </section>
-          <FooterPorto />
-      </div>
+        <div className='md:pt-20'>
+          <section id='home'>
+            <Header />
+          </section>
+          <section id='about'>
+            <About />
+          </section>
+          <section id="skills">
+            <Skills />
+          </section>
+          <section id='projects'>
+            <Project />
+          </section>
+          <section id='contact'>
+            <ContactMe />
+          </section>
+            <FooterPorto />
+        </div>
+
+        </div>
     </div>
   )
 }
