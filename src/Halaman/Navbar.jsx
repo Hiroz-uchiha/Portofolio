@@ -6,7 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navbar = ["About", "Skills", "Projects", "Contact"];
+  const navbar = ["Introduction","About", "Skills", "Projects", "Contact"];
 
   return (
     <div className='fixed z-[999] bg-darkbrown p-6 text-white flex font-[Comfortaa] container'>

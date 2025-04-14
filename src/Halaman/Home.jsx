@@ -15,7 +15,7 @@ const Home = () => {
       <div className=' scroll-smooth'>
         <Navbar />
         <div className='md:pt-20'>
-          <section id='home'>
+          <section id='introduction'>
             <Header />
           </section>
           <section id='about'>

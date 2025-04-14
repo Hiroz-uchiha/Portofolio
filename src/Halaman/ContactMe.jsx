@@ -25,7 +25,7 @@ const ContactMe = () => {
     }
 
     return (
-        <div>
+        <div className=' w-[90%] mx-auto'>
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}

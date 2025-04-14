@@ -7,7 +7,7 @@ const Project = () => {
     const navigasi = useNavigate();
 
     return (
-        <div className=' mt-8 mb-5 p-3'>
+        <div className=' mt-8 mb-5 p-3 w-[90%] mx-auto'>
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}

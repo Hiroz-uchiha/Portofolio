@@ -68,7 +68,7 @@ const Skills = () => {
         },
     ]
     return (
-        <div className=' mt-5 md:w-4/5 mx-auto mb-2 container p-2 '>
+        <div className=' mt-5 md:w-4/5 mx-auto mb-2 container p-2 w-[90%]'>
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}

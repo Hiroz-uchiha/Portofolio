@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const FooterPorto = () => {
   return (
-    <div className=' bg-darkbrown p-3 text-white flex flex-row space-x-2 container text-xs md:text-lg'>
+    <div className=' bg-darkbrown p-3 text-white flex flex-row space-x-2 container text-xs md:text-lg w-full mx-auto'>
       <p>© 2025 Yehezkiel Fernandes Parapat. All rights reserverd.</p>
       <div className='flex space-x-2'>
             <a href="https://www.linkedin.com/in/yehezkiel-fernandes/" className='flex items-center'><FaLinkedin className=' md:text-xl hover:text-goldenrod' /></a>
