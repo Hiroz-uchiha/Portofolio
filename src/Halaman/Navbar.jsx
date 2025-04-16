@@ -9,7 +9,7 @@ const Navbar = () => {
   const navbar = ["Introduction", "About", "Skills", "Projects", "Contact"];
 
   return (
-    <div className=' md:fixed md:z-50 container relative bg-darkbrown p-6 text-white flex flex-col font-[Comfortaa]'>
+    <div className=' md:fixed right-0 md:w-full md:z-50 relative bg-darkbrown p-6 text-white flex flex-col font-[Comfortaa]'>
       <div className='flex justify-between items-center'>
         <h1 className='text-2xl md:w-1/4 w-[90%]'>Portofolio</h1>
 
