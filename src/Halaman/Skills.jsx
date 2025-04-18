@@ -12,6 +12,8 @@ import { SiCanva } from "react-icons/si";
 import { FaFlutter } from "react-icons/fa6";
 import { FaUnity } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { SiPostman } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Skills = () => {
     const data1 = [
@@ -38,6 +40,11 @@ const Skills = () => {
         {
             logo: <SiMongodb className=' text-green-700' />,
             nama: "MongoDB"
+        },
+        
+        {
+            logo: <SiPostman className=' text-orange-500' />,
+            nama: "Postman"
         },
     ]
 
@@ -66,6 +73,11 @@ const Skills = () => {
             logo: <FaUnity className=' text-black' />,
             nama: "Unity"
         },
+        {
+            logo: <RiNextjsFill className='  text-black' />,
+            nama: "Nextjs"
+        },
+
     ]
     return (
         <div className=' mt-9 md:w-4/5 mx-auto mb-2 container p-2 w-[90%]'>

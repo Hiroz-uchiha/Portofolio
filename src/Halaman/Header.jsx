@@ -1,5 +1,5 @@
 import React from 'react'
-import gambar1 from "../Assets/gambarku1.png"
+import gambar1 from "../Assets/MyPhotos.png"
 import { TypeAnimation } from 'react-type-animation'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -54,7 +54,7 @@ const Header = () => {
                         transition={{ duration: 1.5 }}
                         viewport={{ once: true }}
                     >
-                <img src={gambar1} alt="Gambarku" className=' w-[70%] hidden md:block' />
+                <img src={gambar1} alt="Gambarku" className=' w-[100%] hidden md:block' />
                     </motion.div>
         </div>
     </div>
