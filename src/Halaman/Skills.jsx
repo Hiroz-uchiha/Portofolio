@@ -14,7 +14,8 @@ import { FaUnity } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SiPostman } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
-
+import { RiVercelFill } from "react-icons/ri";
+import { FaPython } from "react-icons/fa";
 const Skills = () => {
     const data1 = [
         {
@@ -46,6 +47,12 @@ const Skills = () => {
             logo: <SiPostman className=' text-orange-500' />,
             nama: "Postman"
         },
+        
+        {
+            logo: <RiVercelFill />,
+            nama: "Vercel"
+        },
+        
     ]
 
     const data2 = [
@@ -76,6 +83,10 @@ const Skills = () => {
         {
             logo: <RiNextjsFill className='  text-black' />,
             nama: "Nextjs"
+        },
+        {
+            logo: <FaPython className='  text-black' />,
+            nama: "Python"
         },
 
     ]
