@@ -16,6 +16,9 @@ import { SiPostman } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiVercelFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+
 const Skills = () => {
     const data1 = [
         {
@@ -37,6 +40,10 @@ const Skills = () => {
         {
             logo: <FaNodeJs className=' text-green-600' />,
             nama: "NodeJs"
+        },
+        {
+            logo: <SiExpress />,
+            nama: "Epxress"
         },
         {
             logo: <SiMongodb className=' text-green-700' />,
@@ -87,6 +94,10 @@ const Skills = () => {
         {
             logo: <FaPython className='  text-black' />,
             nama: "Python"
+        },
+        {
+            logo: < FaGithub className='  text-black' />,
+            nama: "Github"
         },
 
     ]
