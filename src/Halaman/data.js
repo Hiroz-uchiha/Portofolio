@@ -2,7 +2,9 @@ import gambarLostDoll from "../Assets/project/LostDoll.png"
 import gambarSkripsi from "../Assets/project/Sclearn.png"
 import gambarUlangTahun from "../Assets/project/ulangTahun.png"
 import gambarTabungPintar from "../Assets/project/TabungPintar.png"
+import gambarMobileFrontend from "../Assets/project/MobileFrontend.png"
 import "../Assets/project/ulangTahun.png"
+
 
 const data = [
     {
@@ -46,6 +48,21 @@ const data = [
                 nama: "Website",
                 link: "https://tabung-pintar-frontend.vercel.app/login"
             }
+        ]
+    },
+    {
+        judul: "Project UAS Mobile Frontend Sekolah Panyabungan",
+        img: gambarMobileFrontend,
+        isi: `This project is a UAS assignment that focuses on developing a mobile application interface (frontend) for Panyabungan School. This application is specifically designed for the needs of students in accessing various important information about learning activities at school through mobile devices. On the home page, we designed a view that displays the subject matter that is taking place on that day, so that students can immediately know what to study without the need to open a manual schedule. In addition, there is also information on the current date integrated with the system, as well as navigation shortcuts to various other main features such as assignments, grades, and student bios. For the assignment feature, we adopt a similar concept with Microsoft Teams, where students can see a list of assignments given by the teacher, complete with deadlines and work status such as not yet done, in progress, or collected. In the account section, students can access their complete biodata, from name, NIS, class, to profile picture. Not only that, this application also provides access to report card information, so students can monitor their academic progress regularly directly from the application. Overall, this application was developed to provide convenience, clarity of information, and support the student learning process with a practical and efficient digital approach.`,
+        file: [
+            {
+                nama: "Tampilan Aplikasi",
+                link: "https://drive.google.com/drive/folders/1VZVIznbaVBlD0boN-zqp-1hl0W3_erOD?usp=sharing"
+            },
+            {
+                nama: "Download Aplikasi",
+                link: "./TimATom.apk"
+            },
         ]
     },
     {

@@ -1,8 +1,6 @@
 import React from 'react'
-import gambarSkripsi from "../Assets/project/Skripsi.png"
 import { FaArrowLeft } from "react-icons/fa6";
 import { useLocation, useNavigate } from 'react-router-dom';
-import { motion } from "framer-motion";
 
 const DetailProject = () => {
     const navigasi = useNavigate();
@@ -15,7 +13,7 @@ const DetailProject = () => {
 
     return (
         <div>
-            <div className=' bg-darkbrown w-full p-3 text-white container'>
+            <div className=' bg-darkbrown w-full p-3 text-white'>
                 <button className=' text-white md:text-2xl' onClick={Kembali}><FaArrowLeft /></button>
             </div>
 
